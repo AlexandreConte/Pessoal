@@ -128,6 +128,10 @@ section a:hover {
   color: #3b90ff;
 }
 
+#sobre p {
+  text-align: center;
+}
+
 .sobre {
   display: flex;
   align-items: center;
