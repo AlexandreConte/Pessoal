@@ -194,6 +194,29 @@ section a:hover {
   gap: 10px;
 }
 
+#projetos h1 {
+  margin: 60px auto 20px;
+}
+
+#projetos img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  border-radius: 30px;
+  border: 2px solid #808080;
+}
+
+.projetos-link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 768px) {
   .aside-flex {
     display: flex;
@@ -230,5 +253,11 @@ section a:hover {
 @media screen and (max-width: 425px) {
   .nav-list {
     justify-content: space-evenly;
+  }
+
+  #projetos img {
+    width: 100%;
+    border-radius: 0;
+    border: 0;
   }
 }
