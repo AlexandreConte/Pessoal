@@ -55,7 +55,7 @@ aside {
   justify-content: center;
   text-align: center;
   background-color: #3A6073;
-  padding: 60px 10px 0;
+  padding: 60px 10px 60px;
   height: calc(100vh - 100px);
   z-index: 10;
 }
@@ -120,11 +120,15 @@ footer ul {
   border-bottom: 1px solid #fff;
 }
 
-section a {
+main a,
+footer a,
+aside a {
   transition: color 0.3s;
 }
 
-section a:hover {
+main a:hover,
+footer a:hover,
+aside a:hover {
   color: #3b90ff;
 }
 
@@ -219,6 +223,13 @@ section a:hover {
   gap: 20px;
   text-align: center;
   flex-wrap: wrap;
+}
+
+.dict {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
