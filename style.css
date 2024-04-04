@@ -67,7 +67,7 @@ aside {
 
 main section h2,
 main section h1 {
-  margin: 60px 0;
+  margin: 80px 0 10px;
   text-align: center;
 }
 
@@ -215,6 +215,10 @@ aside a:hover {
   width: 80%;
   border-radius: 30px;
   border: 2px solid #808080;
+}
+
+#projetos p {
+  text-align: center;
 }
 
 .projetos-link {
